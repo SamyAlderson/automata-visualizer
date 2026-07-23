@@ -1,3 +1,1 @@
-import ruff
-
-# Your main code here
+from ruff import fix
