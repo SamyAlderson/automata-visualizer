@@ -1,3 +1,2 @@
 import ruff
-
-# ... rest of the file remains the same ...
+ruff.main()  # use the --fix option to fix errors
