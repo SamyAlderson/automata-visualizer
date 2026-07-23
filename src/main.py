@@ -1,1 +1,3 @@
-from ruff import fix
+import ruff
+
+# ... rest of the file remains the same ...
