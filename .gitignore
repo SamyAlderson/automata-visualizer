@@ -1,15 +1,21 @@
+# .gitignore
+# ignore the ruff config file
+.ruffconfig
+
+# ignore the python cache
 __pycache__/
-*.pyc
-.pytest_cache/
-.env
-*.egg-info/
-dist/
+
+# ignore the venv
+venv/
+
+# ignore the build artifacts
 build/
-.venv/
-node_modules/
-target/
-bin/
-obj/
-*.o
-*.so
-*.dylib/
+
+# ignore the dist artifacts
+dist/
+
+# ignore the pyc files
+*.pyc
+
+# ignore the egg files
+*.egg-info
