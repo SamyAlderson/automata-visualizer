@@ -1,19 +1,9 @@
 # .gitignore
-
-# ignore node_modules and yarn.lock
-node_modules/
-yarn.lock
-
-# ignore pyc files
-*.pyc
-
-# ignore IDE config
-.idea/
-.vscode/
-
-# ignore build and dist folders
-build/
-dist/
-
 # ignore ruff cache
-.ruffcache/
+.ruff_cache
+
+# ignore ruff config
+.ruffconfig
+
+# ignore ruff log
+.rufflog
